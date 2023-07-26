@@ -68,7 +68,7 @@ theme_settings:
   post_navigation: true
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 
 # BUILD SETTINGS
