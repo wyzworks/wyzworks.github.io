@@ -18,6 +18,49 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# SITE CONFIGURATION
+baseurl:
+url: https://wyzworks.github.io
+
+# Theme specific configuration
+theme_setting:
+  # Meta
+  title: wyzcodes
+  avatar: assets/img/avatar.png
+  favicon: assets/favicon.ico
+  description: "Aerospace AI Engineer who knits"
+
+  # Header and Footer text
+  header_text: >
+     <p>Aerospace AI Engineer who knits</p>
+  header_text_feature_image:
+  footer_text:
+
+  # Icons
+  rss: true
+  email_address: "yunzi.woo@gmail.com" # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "wyzcodes"
+  google_plus:
+  instagram:
+  linkedin: https://www.linkedin.com/in/yunji-woo-a3a552201/ # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter:
+  wordpress:
+  youtube:
+
+
+
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
