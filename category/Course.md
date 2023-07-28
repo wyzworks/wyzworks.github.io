@@ -1,7 +1,7 @@
 ---
 layout: category
 title: STP/Literature Review
-permalink: '/STP/Lit Review'
+permalink: '/STP/Course'
 ---
 
 category page

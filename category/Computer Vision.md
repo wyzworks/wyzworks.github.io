@@ -1,7 +1,0 @@
----
-layout: category
-title: Work/Computer Vision
-permalink: '/Work/Computer Vision/'
----
-
-category page
