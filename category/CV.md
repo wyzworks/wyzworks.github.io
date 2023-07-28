@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Work/Computer Vision
+title: Computer Vision
 permalink: '/Work/CV/'
 ---
 

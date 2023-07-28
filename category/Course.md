@@ -1,6 +1,6 @@
 ---
 layout: category
-title: STP/Literature Review
+title: Course
 permalink: '/STP/Course'
 ---
 

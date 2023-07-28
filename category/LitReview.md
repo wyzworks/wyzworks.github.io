@@ -1,6 +1,6 @@
 ---
 layout: category
-title: STP/Literature Review
+title: Literature Review
 permalink: '/STP/LitReview'
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Work/Develop Environment
+title: Develop Environment
 permalink: '/Work/DevEnv'
 ---
 

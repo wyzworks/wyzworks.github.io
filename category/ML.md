@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Blog/Blog
-permalink: '/Blog/Blog'
+title: Machine Learning
+permalink: '/Work/ML'
 ---
 
 category page

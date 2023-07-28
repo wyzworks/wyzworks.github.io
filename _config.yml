@@ -79,7 +79,7 @@ sass:
   style: :compressed
 plugins: 
   - jekyll-paginate
-  - jekyll-category-pages
+
 gem: 
   - jekyll-sitemap
   - jekyll-feed

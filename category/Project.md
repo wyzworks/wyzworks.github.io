@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Blog/Blog
-permalink: '/Blog/Blog'
+title: Project
+permalink: '/STP/Project'
 ---
 
 category page
