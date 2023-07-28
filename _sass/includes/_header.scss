@@ -3,7 +3,7 @@
   background: $brand-color;
   border-bottom: 1px solid $border-color;
   display: inline-block;
-  float: left;
+  // float: left;
   width: 100%;
 
   a {
@@ -46,7 +46,7 @@
     @media (max-width: 1100px) {
       ul {
         display: inline-block;
-        float: left;
+        // float: left;
         padding-top: $padding-small;
         text-align: left;
         width: 100%;
