@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Diary
+title: Blog/Diary
 permalink: '/Blog/Diary'
 ---
 

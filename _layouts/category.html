@@ -1,6 +1,26 @@
 ---
 layout: default
 ---
+
+<ul class="category-title"><h1>{{page.title}}</h1></ul>
+<ul class="posts-list">
+  {% assign category = page.category | default: page.title %}
+  {% for post in site.categories[category] %}
+    <li>
+      <h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <small>{{ post.date | date_to_string }}</small>
+      </h3>
+    </li>
+  {% endfor %}
+</ul>
+
+
+<!-- ---
+layout: default
+---
 <ul class="posts-list">
   
   {% assign category = page.category | default: page.title %}
@@ -15,4 +35,4 @@ layout: default
     </li>
   {% endfor %}
   
-</ul>
+</ul> -->
