@@ -1,9 +1,9 @@
-{% if site.theme_settings.katex and page.id %}
-<script src="{{ "/assets/js/katex_init.js" | relative_url }}"></script>
-{% endif %}
-
-{% if site.theme_settings.footer_text %}
-<footer class="site-footer">
-	<p class="text">{{ site.theme_settings.footer_text }}</p>
+<footer>
+  <hr/>
+  {% if site.copyright.size > 0 %}
+    {{ site.copyright | markdownify }}
+  {% endif %}
+  <p>
+    <code>Powered by <a href="https://theorydb.github.io/">theorydb</a></code>
+  </p>
 </footer>
-{% endif %}

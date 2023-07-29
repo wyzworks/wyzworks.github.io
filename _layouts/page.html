@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: base
 ---
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
-    <h1 class="title">{{ page.feature-title | default: page.title }}</h1>
-    {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+
+<article class="page" role="article">
+  <header style="margin-bottom:2rem">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include message.html text=page.description %}
   </header>
-  <section class="post-content">{{ content }}</section>
+
+  {{ content }}
 </article>
+
