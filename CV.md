@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-permalink: Resume
+permalink: CV
 feature-img: 
 ---
 
