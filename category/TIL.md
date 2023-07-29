@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Diary
-permalink: '/Blog/Diary'
+title: TIL
+permalink: '/Blog/TIL'
 ---
 
 category page

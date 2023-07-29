@@ -5,8 +5,16 @@ permalink: /CV/
 feature-img: 
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+**Yunji Woo**
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+## Experience
+* AI Engineer, Korean Air (2021 ~ Current)
+    * AI Implementation on Avionics Integrated systems
+    * LSTM-Autoencoder Anomaly detection on Aircraft QAR monitoring
+    * Man and Unmanned Teaming(MUM-T) realtime complex circumference identification 
+* Liaison Engineer, Korean Air (2019 ~ 2021)
+    * US Airforce F-15 fighter depot maintenance program, in charge of overall aircraft systems such as structural, pneumatic, engine, and ejection 
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+## Education
+* KAIST, Master's candidate in Science and Technology Policy (2021 ~ Current)
+* KAIST, Bachelor's degree in Aerospace Engineering (2019)
