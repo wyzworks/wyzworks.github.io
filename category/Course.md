@@ -1,6 +1,6 @@
 ---
 layout: category
-title: STP/Course
+title: Course
 permalink: '/STP/Course'
 ---
 

@@ -1,7 +1,7 @@
 .site-header {
   @extend %padding-small;
   background: $brand-color;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 0px solid $border-color;
   display: inline-block;
   float: left;
   width: 100%;
