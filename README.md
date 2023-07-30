@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 
+title:  테스트
+subtitle:   서브제목
+categories: Blog
+tags: Diary
 comments: true
-tags: [github,]
-categories: [Blog/Diary]
+header-img: xxx.png
 ---
 
 
