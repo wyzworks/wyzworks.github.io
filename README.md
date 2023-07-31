@@ -2,12 +2,11 @@
 layout: post
 title:  테스트
 subtitle:   서브제목
-categories: Blog
-tags: Diary
+categories: STP
+tags: LitReview
 comments: true
 header-img: xxx.png
 ---
-
 
 개발 및 공부한 내용을 정리하는 개인 블로그 
 
