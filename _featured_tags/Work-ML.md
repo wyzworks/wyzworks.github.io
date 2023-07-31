@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: list
 title: Machine Learning
 slug: ML
 category: Work

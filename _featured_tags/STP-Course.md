@@ -1,5 +1,5 @@
 ---
-layout: tag-blog
+layout: list
 title: Course
 slug: Course
 category: STP
