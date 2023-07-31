@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Blog
-slug: blog
+slug: Blog
 menu: true
 submenu: false
 order: 1

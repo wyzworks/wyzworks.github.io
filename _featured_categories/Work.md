@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Work
-slug: work
+slug: Work
 menu: true
 submenu: true
 order: 3

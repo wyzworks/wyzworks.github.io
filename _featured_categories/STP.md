@@ -1,7 +1,7 @@
 ---
 layout: list
 title: STP
-slug: stp
+slug: STP
 menu: true
 submenu: true
 order: 2
