@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Patent
-slug: Patent
+title: Project
+slug: Project
 category: STP
 menu: false
 order: 3

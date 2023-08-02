@@ -1,42 +1,39 @@
 ---
 layout: post
-title: Anomaly Detection CV
+title: 영상기반 이상탐지
 subtitle: BDA에 응용을 위해 
 comments: true
-tags: [ML, CV]
+tags: [ML, CV, Anomaly Detection]
 categories: [Work]
 ---
 컴퓨터 비전 기반 Anomaly detection의 종류들 
 
-# 0. 알고리즘 타임라인 
+# 알고리즘 타임라인 
 Deep SVDD(2018) → Deep SAD(2020) → HSC(2021) → FCDD(2021) 
 - Anomaly Detection 기본 개념 = Outlier 탐지 
-
-![](https://lh3.googleusercontent.com/k3DRIxXETgehYvXeWJcMRg_LvMaHi-Aq1zQKp87yOPP_IeAXbXaC3xMehidis1mcmOCgIkO7PblmAi1PQeAmppz0V9ruR1GNUlAhnn3S91gRqstJ0BbNJzwQdmgP75WNmTy7sSXrJGU28yluvwTlxDk){: width = "50%" height = "50%}
-
+<img src="https://lh3.googleusercontent.com/k3DRIxXETgehYvXeWJcMRg_LvMaHi-Aq1zQKp87yOPP_IeAXbXaC3xMehidis1mcmOCgIkO7PblmAi1PQeAmppz0V9ruR1GNUlAhnn3S91gRqstJ0BbNJzwQdmgP75WNmTy7sSXrJGU28yluvwTlxDk" width = "70%">
 # Deep SVDD: Deep One-Class Classification (ICML 2018)
 ## Info
 - Paper: Ruff, L et al (2018). Deep One-Class Classification, Proceedings of the 35th International Conference on Machine Learning
 - Link: [http://proceedings.mlr.press/v80/ruff18a.html](http://proceedings.mlr.press/v80/ruff18a.html) 
 
-## 기존 알고리즘: SVM & SVDD    
-
+## 기존 알고리즘: SVM & SVDD
 - SVM(Support Vector Machine) 
 	- 서로 다른 클래스를 분류하는 hyperplane을 찾는 방법
 
-![](https://lh4.googleusercontent.com/ylBcQZ9VWWHmrHJciBQdEMqWLpUofhQs4mWzf5zz2OPayoLkdWviowjzeWrYEsdfFJEo010n-dge-vClq-U4U-L3KRDC2xCsG_mOhmZR3e_cpcMzHSvZ7yGKSNCoLeviAKpLBTdF0hkOStSrVGlpPE8){: width = "70%" height = "70%}
-
+<img src="https://lh4.googleusercontent.com/ylBcQZ9VWWHmrHJciBQdEMqWLpUofhQs4mWzf5zz2OPayoLkdWviowjzeWrYEsdfFJEo010n-dge-vClq-U4U-L3KRDC2xCsG_mOhmZR3e_cpcMzHSvZ7yGKSNCoLeviAKpLBTdF0hkOStSrVGlpPE8" width = "50%">
 - SVDD(Support Vector Data Description)
 	- 비선형 SVM을 이용한 One-class classification의 대표적인 방법.
 	- 데이터의 feature space에서 정상 데이터를 둘러싸는 Hypersphere를 찾고, 해당 boundary를 기준으로 이상치 탐지 
+<img src = "https://lh3.googleusercontent.com/mApKmmjxUpGipFMaK3RJC30bLioJ5M1ObQqWNm8kFmnB7wNPw-u_gsuZgPjr8Bs_5ClOT3n6tZPwV6gy6Vsz72c7xiHVtresCL43-TInBeYpZtO6Lb8LCrL3nW9Epa44Jxwj7nUKD-qZHp0x37sc9Fk" width= "70%" >
 
-![](https://lh3.googleusercontent.com/mApKmmjxUpGipFMaK3RJC30bLioJ5M1ObQqWNm8kFmnB7wNPw-u_gsuZgPjr8Bs_5ClOT3n6tZPwV6gy6Vsz72c7xiHVtresCL43-TInBeYpZtO6Lb8LCrL3nW9Epa44Jxwj7nUKD-qZHp0x37sc9Fk){: width = "70%" height = "70%}
 
 ## Deep-SVDD 
 - Unsupervised anomaly detection 방법론 
 	- 정상 데이터만을 사용하여 이상 탐지 모델을 학습 
 	- 정상 데이터를 정상 feature를 대표하는 중심인 c에 가깝게 mapping하는 Kernel-based SVDD에 딥러닝을 접목
-![](https://lh4.googleusercontent.com/hpMYggs2xsKOcGxeNzx9Eb7v_kJj5SYkbWFnKPOG5ePzr46KbxQDOjezMH-rk_mUt9pTiUbWJpDXYR5ushrMqTHvdIzXKAcgHzPY4A_ddmdwv6DqkE6NdQ1N3YkWPHJChAtgzum36JQz3fQjjfix4EQ){: width = "70%" height = "70%}
+<img src = "https://lh4.googleusercontent.com/hpMYggs2xsKOcGxeNzx9Eb7v_kJj5SYkbWFnKPOG5ePzr46KbxQDOjezMH-rk_mUt9pTiUbWJpDXYR5ushrMqTHvdIzXKAcgHzPY4A_ddmdwv6DqkE6NdQ1N3YkWPHJChAtgzum36JQz3fQjjfix4EQ" width = "70%">
+
 
 ## 모델 구조
 - SVDD 목적함수
@@ -49,8 +46,7 @@ Deep SVDD(2018) → Deep SAD(2020) → HSC(2021) → FCDD(2021) 
 ![](https://lh3.googleusercontent.com/efUGqlF37nFbTSwrr4GVOSoLkrunY36B9sRJMgsx8ZwnQrPGm-1m7m89sUG8bcBJqmCElq_i_RRIhsA2YUEHEtpGj6QTFxA9ucflPnNeg-xBC7x6ix2NUCZ1bTArtn6YSNE6E0iD153bOesivSvirlU){: width = "70%" height = "70%}
 ![](https://lh5.googleusercontent.com/8p89PRMqjYWgEGSYCvbEe8WJdMPo45k6VawASl54YY2KmBrUoKYCMhOKczvHLjfOWX2PQ7dihjR4EaNcOJR61wugQeOYB7XngoIlWibSudEiyfUqIlAbuT7ayEnXyuczkgDYtvkFci4PiIFNYtc4V7w){: width = "70%" height = "70%}
 * distance to the center 
-	- 마지막 텀은 Weight decay regularizer로 작용 (오버피팅 방지, L2 regularizer)
-
+	- 마지막 텀은 Weight decay regularizer로 작용 (오버피팅 방지, L2 regularizer)  
 # Deep SAD: Deep Semi-Supervised Anomaly Detection (ICLR 2020)    
 ## Info    
 - Paper: [https://arxiv.org/abs/1906.02694](https://arxiv.org/abs/1906.02694) 
