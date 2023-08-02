@@ -5,7 +5,6 @@ subtitle:
 categories: Work
 tags: [CV]
 comments: true
-header-img: xxx.png
 ---
 
 OpenCV를 활용한 영상 안정화 
@@ -16,7 +15,7 @@ OpenCV를 활용한 영상 안정화
 
 # 특징점 매칭 
 
-``` Python
+```Python
 # Import numpy and OpenCV
 import numpy as np 
 import cv2
