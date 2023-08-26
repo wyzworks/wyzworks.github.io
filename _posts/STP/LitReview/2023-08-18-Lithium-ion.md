@@ -2,7 +2,7 @@
 layout: post
 title: "[Research Policy] How do we use environments influence a technology's knowledge trajectory? A Patent citation network analysis of lithium-ion battery technology"
 comments: true
-tags: [Literature Review]
+tags: [LitReview]
 categories: STP
 ---
 
